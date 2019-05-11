@@ -1,0 +1,4 @@
+SELECT
+	TO_DATE( '07/31/2018', 'MM/dd/yyyy' )- TRUNC( SYSDATE )
+FROM
+	dual
